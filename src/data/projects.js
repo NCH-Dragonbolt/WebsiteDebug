@@ -1,21 +1,22 @@
 // TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'Intelligent Python Trading Algorithm',
+    subtitle: '',
+    image: '/images/projects/wip.png',
+    date: '2022-9',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'Due to receiving exceptional grades in HKUST’s Introduction to Python course,'
+      + ' I was invited to partake in a course where I independently pursue a market-based python project.'
+      + ' I created and iterated on a machine-learning based python trading algorithm analysing Google Trends '
+      + 'that resulted in a consistent profit. '
+      + ' Tools used include Python, TensorFlow, Jupyter, NumPy, Pandas, Scikit-Learn and Matplotlib',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
+    title: 'Linux Dotfiles',
+    subtitle: 'Configuration files for my laptop',
     link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
+    image: '/images/projects/wip.png',
     date: '2015-09-20',
     desc:
       'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '

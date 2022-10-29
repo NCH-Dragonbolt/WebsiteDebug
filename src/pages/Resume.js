@@ -18,14 +18,15 @@ const sections = [
   'Education',
   'Experience',
   'Skills',
-  'Courses',
+  'Awards',
+  'Leadership Experience',
   'References',
 ];
 
 const Resume = () => (
   <Main
     title="Resume"
-    description="Michael D'Angelo's Resume. Arthena, Matroid, YC, Skeptical Investments, Stanford ICME, Planet Labs, and Facebook."
+    description="Aditya Mangla's Resume"
   >
     <article className="post" id="resume">
       <header>
