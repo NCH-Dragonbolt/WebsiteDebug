@@ -20,7 +20,7 @@ const SideBar = () => (
     <section className="blurb">
       <h2>About</h2>
       <p>Hi, I&apos;m Adi. I like fixing and breaking things.
-        I am a current second year student at <a href="https://icme.stanford.edu/">HKUST</a>.
+        I am a current second year student at <a href="https://hkust.edu.hk/">HKUST</a>.
       </p>
       <ul className="actions">
         <li>

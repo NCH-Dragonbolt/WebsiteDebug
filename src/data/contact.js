@@ -20,7 +20,7 @@ const data = [
   //   icon: faFacebookF,
   // },
   // {
-  //   link: 'https://www.instagram.com/dangelosaurus/',
+  //   link: 'https://www.instagram.com//',
   //   label: 'Instagram',
   //   icon: faInstagram,
   // },
@@ -30,7 +30,7 @@ const data = [
     icon: faLinkedinIn,
   },
   // {
-  //   link: 'https://angel.co/michael-d-angelo',
+  //   link: 'https://angel.co/',
   //   label: 'Angel List',
   //   icon: faAngellist,
   // },
