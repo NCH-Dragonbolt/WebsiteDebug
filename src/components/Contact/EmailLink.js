@@ -12,7 +12,7 @@ const validateText = (text) => {
 const messages = [
   'hi',
   'hello',
-  'hola',
+  'nihao',
   'you-can-email-me-at-literally-anything! Really',
   'well, not anything. But most things',
   'like-this',
@@ -20,10 +20,11 @@ const messages = [
   'but not this :(  ',
   'you.can.also.email.me.with.specific.topics.like',
   'just-saying-hi',
-  'please-work-for-us',
+  'do-you-want-to-work-for-us',
   'help',
+  'you-left-the-oven-on',
   'admin',
-  'or-I-really-like-your-website',
+  'are-you-free-for-lunch',
   'thanks',
 ];
 
@@ -78,12 +79,13 @@ const EmailLink = ({ loopMessage }) => {
   return (
     <div
       className="inline-container"
+      style={validateText(message) ? {} : { color: 'red' }}
       onMouseEnter={() => setIsActive(false)}
       onMouseLeave={() => (idx < messages.length) && setIsActive(true)}
     >
-      <a href={validateText(message) ? 'mailto:adityavmangla@gmail.com' : ''}>
-        <span>adityavmangla</span>
-        <span>@gmail.com</span>
+      <a href={validateText(message) ? `mailto:${message}@adityavmangla.com` : ''}>
+        <span>{message}</span>
+        <span>@adityavmangla.com</span>
       </a>
     </div>
   );
