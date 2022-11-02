@@ -4,7 +4,9 @@ import { Link } from 'react-router-dom';
 import Main from '../layouts/Main';
 
 import Cell from '../components/Projects/Cell';
+import NoImgCell from '../components/Projects/NoImgCell';
 import data from '../data/projects';
+import noimgdata from '../data/projects2';
 
 const Projects = () => (
   <Main
@@ -18,6 +20,12 @@ const Projects = () => (
           <p>A collection of some cool projects that I&apos;ve been a part of.</p>
         </div>
       </header>
+      {noimgdata.map((project) => (
+        <NoImgCell
+          data={project}
+          key={project.title}
+        />
+      ))}
       {data.map((project) => (
         <Cell
           data={project}

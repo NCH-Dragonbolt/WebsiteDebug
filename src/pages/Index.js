@@ -20,8 +20,8 @@ const Index = () => (
         or you can check out my {' '}
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
-        view <Link to="/stats">site statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me.
+        view some of my fascinating <Link to="/stats">statistics</Link>, {' '}
+        or <Link to="/contact">contact</Link> me. Please note that my website is still an extreme work in progress!
       </p>
     </article>
   </Main>
