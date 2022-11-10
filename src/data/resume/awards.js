@@ -3,7 +3,7 @@ const degrees = [
     school: 'Hong Kong University of Science and Technology',
     degree: 'Exceptional Grade Scholarship',
     link: 'https://hkust.edu.hk/',
-    year: 2020,
+    year: 2021,
   },
   {
     school: 'United Kingdom Mathematics Trust',

@@ -11,6 +11,7 @@ const NoImgCell = ({ data }) => (
         <p className="published"> {data.date}</p>
 
       </header>
+      <div style={{ width: '100%', height: '100px' }} />
       <div className="description">
         <p>{data.desc}</p>
       </div>

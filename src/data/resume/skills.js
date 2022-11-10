@@ -2,25 +2,12 @@
 // Data Engineering, Data Science, ML Engineering, ... ?
 
 const skills = [
+
+  // Languages Primarily
   {
     title: 'Python',
     competency: 5,
     category: ['Languages', 'Python'],
-  },
-  {
-    title: 'Javascript',
-    competency: 3,
-    category: ['Languages', 'Web Development'],
-  },
-  {
-    title: 'Linux',
-    competency: 5,
-    category: ['Tools'],
-  },
-  {
-    title: 'Docker',
-    competency: 3,
-    category: ['Tools'],
   },
   {
     title: 'Lua',
@@ -30,12 +17,48 @@ const skills = [
   {
     title: 'PHP',
     competency: 3,
-    category: ['Web Development', 'Languages'],
+    category: ['Languages', 'Web Development'],
+  },
+  {
+    title: 'Javascript',
+    competency: 3,
+    category: ['Languages', 'Web Development'],
+  },
+  {
+    title: 'HTML + CSS',
+    competency: 3,
+    category: ['Languages', 'Web Development'],
+  },
+  {
+    title: 'LaTeX',
+    competency: 5,
+    category: ['Languages'],
+  },
+  {
+    title: 'C(++)',
+    competency: 3,
+    category: ['Languages'],
+  },
+  {
+    title: 'MATLAB',
+    competency: 2,
+    category: ['Languages'],
   },
   {
     title: 'Bash/Shell',
     competency: 3,
-    category: ['Tools', 'Languages'],
+    category: ['Languages', 'Tools'],
+  },
+  // Tools primarily
+  {
+    title: 'Linux',
+    competency: 5,
+    category: ['Tools'],
+  },
+  {
+    title: 'Docker',
+    competency: 3,
+    category: ['Tools'],
   },
   {
     title: 'Amazon Web Services',
@@ -65,7 +88,7 @@ const skills = [
   {
     title: 'Numpy',
     competency: 3,
-    category: ['Data Science', 'Data Engineering', 'Python'],
+    category: ['Data Science', 'Python'],
   },
   {
     title: 'Tensorflow + Keras',
@@ -75,42 +98,22 @@ const skills = [
   {
     title: 'Jupyter',
     competency: 4,
-    category: ['Data Science', 'Python'],
-  },
-  {
-    title: 'HTML + CSS',
-    competency: 3,
-    category: ['Web Development', 'Languages'],
-  },
-  {
-    title: 'LaTeX',
-    competency: 5,
-    category: ['Languages'],
-  },
-  {
-    title: 'C(++)',
-    competency: 3,
-    category: ['Languages'],
-  },
-  {
-    title: 'MATLAB',
-    competency: 2,
-    category: ['Languages'],
+    category: ['Python', 'Data Science'],
   },
   {
     title: 'Pandas',
     competency: 5,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Data Science', 'Python'],
   },
   {
     title: 'Matplotlib',
     competency: 3,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Data Science', 'Python'],
   },
   {
     title: 'Scikit-Learn',
     competency: 4,
-    category: ['Data Engineering', 'Data Science', 'Python'],
+    category: ['Data Science', 'Python'],
   },
 ].map((skill) => ({ ...skill, category: skill.category.sort() }));
 
@@ -118,16 +121,27 @@ const skills = [
 // number of categories. Re-arrange this list until you find a pattern you like.
 const colors = [
   '#6968b3',
-  '#37b1f5',
-  '#40494e',
-  '#515dd4',
-  '#e47272',
-  '#cc7b94',
-  '#3896e2',
-  '#c3423f',
-  '#d75858',
-  '#747fff',
-  '#64cb7b',
+  '#6968b3',
+  '#6968b3',
+  '#6968b3',
+  '#6968b3',
+  '#6968b3',
+  '#6968b3',
+  '#6968b3',
+  // '#37b1f5',
+  // '#40494e',
+  // '#40494e',
+  // '#40494e',
+  // '#40494e',
+  // '#515dd4',
+  // '#e47272',
+  // '#cc7b94',
+  // '#3896e2',
+  // '#c3423f',
+  // '#40494e',
+  // '#d75858',
+  // '#747fff',
+  // '#64cb7b',
 ];
 
 const categories = [
