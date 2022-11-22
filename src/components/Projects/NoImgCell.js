@@ -1,18 +1,15 @@
 import React from 'react';
 import PropTypes from 'prop-types';
-import dayjs from 'dayjs';
 
 const NoImgCell = ({ data }) => (
   <div className="cell-container">
     <article className="mini-post">
       <header>
         <h3><a href={data.link}>{data.title}</a></h3>
-        <time className="published">{dayjs(data.date).format('MMMM, YYYY')}</time>
         <p className="published"> {data.date}</p>
-
       </header>
-      <div style={{ width: '100%', height: '100px' }} />
-      <div className="description">
+      <div style={{ width: '100%', margin: '-1%' }} />
+      <div className="description" style={{ display: 'contents' }}>
         <p>{data.desc}</p>
       </div>
     </article>

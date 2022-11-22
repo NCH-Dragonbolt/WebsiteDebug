@@ -5,7 +5,7 @@
 const data = [
   {
     label: 'Average Typing Speed',
-    value: '120 WPM',
+    value: '125 WPM',
   },
   {
     label: 'Number of cats desired',

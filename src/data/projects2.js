@@ -3,7 +3,7 @@ const noimgdata = [
   {
     title: 'ONGOING: Intelligent Python Trading Algorithm',
     subtitle: '',
-    date: '2022-7',
+    date: '2022 July - Present',
     desc:
       'Due to receiving exceptional grades in HKUST’s Introduction to Python course,'
       + ' I was invited to partake in a course where I independently pursue a market-based python project.'
@@ -16,7 +16,7 @@ const noimgdata = [
     subtitle: 'Configuration files for my laptop',
     link: 'https://github.com/AdityaRoot/dotfiles',
     image: '/images/projects/wip.png',
-    date: '2021-6',
+    date: '2021 June - Present',
     desc:
       'Active configuration of my Linux Laptops \'dotfiles\' or configuration/system files. '
       + 'Using Python, C(++), LaTeX, Bash/Shell, Lua, Git, and Linux',
@@ -25,7 +25,7 @@ const noimgdata = [
     title: 'Engineering and Software Deployment of Neural-Network driven Ultrasound Machine',
     subtitle: 'User-driven ultrasound for infants',
     image: '/images/projects/wip.png',
-    date: '2022-01',
+    date: '2022 January',
     desc:
       'At Bloom Standard while hired as Software and Electrical engineering intern worked with CTO '
       + 'to produce working prototype of handheld user-driven ultrasound for infants based on pocovidnet neural network. ',
@@ -34,7 +34,7 @@ const noimgdata = [
     title: 'Sunshine Action Website',
     subtitle: 'A robust event management system for a charity',
     image: '/images/projects/wip.png',
-    date: '2015-05-15',
+    date: '2019 - 2021',
     desc:
       'During the start of the pandemic, I independently designed and coded a functional, secure, '
       + 'and robust event management system through a website & database for charity founder. '
