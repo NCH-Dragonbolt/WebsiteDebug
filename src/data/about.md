@@ -28,9 +28,11 @@ However, for the first few weeks of my internship - I was a software developer. 
 At both these experiences I especially valued the fact that despite my young age and relative inexperience to everyone around me, my opinions, thoughts, and time were valued. Experiencing this, it is something I continue to look for in all my future opportunities.
 # Tech
 I daily drive a Lenovo Thinkpad X1 Carbon Gen 9 powered by an intel chip running Arch Linux (I swear, I don't feel any sense of overwhelming superiority for using Arch and only use it for the AUR). I actively configure my dotfiles which are available on my [github](https://github.com/AdityaRoot/dotfiles "github"), but the general tl;dr is:
-- My window manager alternates between qtile (configured in Python) and dwm (configured in C)
-- My editor of choice is my heavily customized neovim (configured largely in Lua)
-- My terminal is Kitty
+<ul>
+<li>My window manager alternates between qtile (configured in Python) and dwm (configured in C)</li>
+<li>My editor of choice is my heavily customized neovim (configured largely in Lua)</li>
+<li>My terminal is Kitty</li>
+</ul>
 
 
 I also have a windows desktop powered by a Ryzen chip and Nvidia graphics card for compatibility and convenience reasons.
