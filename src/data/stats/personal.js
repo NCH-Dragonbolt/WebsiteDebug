@@ -30,8 +30,8 @@ const data = [
     value: 'Hong Kong',
   },
   {
-    label: 'Average WPM',
-    value: '120',
+    label: 'Typing speed (on a good day)',
+    value: '135 WPM',
   },
   {
     label: 'Number of cats desired',

@@ -21,9 +21,9 @@ const Index = () => (
         <Link to="/resume">resume</Link>, {' '}
         <Link to="/projects">projects</Link>, {' '}
         view some of my fascinating <Link to="/stats">statistics</Link>, {' '}
-        or <Link to="/contact">contact</Link> me. Please note that my website is still an extreme work in progress!
+        or <Link to="/contact">contact</Link> me./* Please note that my website is still an extreme work in progress!
         More or less the only complete page is where you can <Link to="/contact">reach out to me</Link> and view
-        my <Link to="/stats">cat desirability statistics</Link>.
+        my <Link to="/stats">cat desirability statistics</Link>. */
       </p>
     </article>
   </Main>

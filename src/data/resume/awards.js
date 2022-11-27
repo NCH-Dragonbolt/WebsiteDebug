@@ -7,7 +7,7 @@ const degrees = [
   },
   {
     school: 'United Kingdom Mathematics Trust',
-    degree: 'Gold Award',
+    degree: 'Senior Challenge Gold Award',
     link: 'https://www.ukmt.org.uk/',
     year: 2020,
   },
