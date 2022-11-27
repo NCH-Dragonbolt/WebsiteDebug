@@ -75,6 +75,9 @@ class Skills extends Component {
           <h3>Skills</h3>
           <p>Here is a *mostly* honest overview of my skills
             ranked by how skilled I deem myself to be at them.
+            A higher number generally means that more than just being knowledgable,
+            I am comfortable using it in a professional setting as well
+            as more adept at picking up new skills related to it.
             Sortable by common categories.
           </p>
         </div>
