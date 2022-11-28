@@ -41,7 +41,7 @@ const positions = [
       'Working hands-on with the CTO to develop a stable prototype of user-driven and affordable ultrasound technology',
       'Worked with CTO to develop a fully-functional prototype of medical handheld ultrasound device',
       'Deployed and configured Python-based TensorFlow neural network machine learning algorithm to Nvidia GPU driven supercomputer from HK AI Labs',
-      'Effectively performed syster administration duties in setting up and managing remote access through VNC and RaspberryPi on Linux supercomputer',
+      'Effectively performed system administration duties in setting up and managing remote access through VNC and RaspberryPi on Linux supercomputer',
       'Specializing in Python, Linux, RaspberriPi, Git, TensorFlow, VNC, and Docker',
     ],
   },

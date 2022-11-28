@@ -91,7 +91,7 @@ const skills = [
     category: ['Data Science', 'Python'],
   },
   {
-    title: 'Tensorflow + Keras',
+    title: 'TensorFlow + Keras',
     competency: 3,
     category: ['Data Science', 'Python'],
   },
