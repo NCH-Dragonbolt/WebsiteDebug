@@ -35,3 +35,4 @@ jobs:
       with: 
         branch: gh-pages
         folder: .
+        node-version: '16.16.0'
