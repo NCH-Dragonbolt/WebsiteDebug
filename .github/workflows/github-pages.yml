@@ -17,7 +17,9 @@ jobs:
       with:
         node-version-file: '.nvmrc'
     - name: Install
-      run: npm ci
+      run: 
+        npm ci
+        npm run build && react-snap
     - name: Build and Deploy
       env:
         NODE_ENV: production
@@ -25,8 +27,6 @@ jobs:
         # REACT_APP_GA_TRACKING_ID: UA-68649021-1
         # This is set automatically by github
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      run: |
-          git config user.name "Automated"
-          git config user.email "actions@users.noreply.github.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.comh/nch-dragonbolt.github.io/WebsiteDebug/
-          npm run deploy
+      with: 
+        branch: gh-pages
+        folder: .
