@@ -17,7 +17,8 @@ jobs:
     - name: Setup Node
       uses: actions/setup-node@v3
       with:
-        node-version-file: '.nvmrc'
+        node-version: '16.16.0'
+        #node-version-file: '.nvmrc'
         
     - name: Install
       run: 
@@ -35,4 +36,3 @@ jobs:
       with: 
         branch: gh-pages
         folder: .
-        node-version: '16.16.0'
