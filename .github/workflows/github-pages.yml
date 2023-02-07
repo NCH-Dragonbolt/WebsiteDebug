@@ -28,5 +28,5 @@ jobs:
       run: |
           git config user.name "Automated"
           git config user.email "actions@users.noreply.github.com"
-          git remote set-url origin https://git:${GITHUB_TOKEN}@github.com/AdityaRoot/adityaroot.github.io.git
+          git remote set-url origin https://git:${GITHUB_TOKEN}@github.comh/nch-dragonbolt.github.io/WebsiteDebug/
           npm run deploy
