@@ -1,11 +1,11 @@
 {
   "name": "personal-site",
   "version": "4.0.0",
-  "homepage": "https://adityavmangla.com/",
+  "homepage": "https://nch-dragonbolt.github.io/WebsiteDebug/",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/AdityaRoot/adityaroot.github.io"
+    "url": "https://nch-dragonbolt.github.io/WebsiteDebug/"
   },
   "engines": {
     "node": "16.x"
