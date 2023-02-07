@@ -22,7 +22,7 @@ jobs:
     - name: Install
       run: 
         npm ci
-        npm run build && react-snap
+        npm run build 
         
     - name: Build and Deploy
       env:
